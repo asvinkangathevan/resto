@@ -10,22 +10,15 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 40px 20px;
-  background-color: #474646;
+  background-color: #0d0d0d;
   gap: 760px;
-}
-
-header img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 3px solid #10a713;
 }
 
 header h2 {
   font-size: 2em;
   color: #10a713;
   margin: 0;
-  text-shadow: 0 0 10px #10a713, 0 0 20px #10a713;
+  text-shadow: 0 0 10px #058307, 0 0 20px #10a713;
 }
 
 main {
@@ -41,7 +34,13 @@ section h3 {
   margin-bottom: 15px;
   text-shadow: 0 0 8px #10a713, 0 0 15px #10a713;
 }
-
+section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 3px solid #10a713;
+  margin-bottom: 15px;
+}
 ul {
   list-style-type: square;
   padding-left: 20px;
